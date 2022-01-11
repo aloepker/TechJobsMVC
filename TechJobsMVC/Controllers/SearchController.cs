@@ -18,7 +18,10 @@ namespace TechJobsMVC.Controllers
         }
 
         // TODO #3: Create an action method to process a search request and render the updated search view. 
-        
+        public IActionResult Results()
+        {
+            return View();
+        }
         //this is likely where the a1 custom searchmethods go like gerard was talking about
     }
 }
